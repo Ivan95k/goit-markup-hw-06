@@ -538,8 +538,14 @@ li {
   border-radius: 50%;
   width: 24px;
   height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop-modal-btn-close:active {
+.backdrop-modal-btn-close:hover,
+.backdrop-modal-btn-close:focus {
   border-color: #4d5ae5;
   fill: #ffffff;
 }
