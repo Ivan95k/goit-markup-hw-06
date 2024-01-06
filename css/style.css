@@ -705,7 +705,7 @@ li {
   border-color: transparent;
 }
 .checkbox:checked + .form-agreement > .form-agreement-checkbox {
-
   background-color: #404bbf;
   border: none;
-  fill:  #fcfcfc;
+  fill: #f4f4fd;
+}
