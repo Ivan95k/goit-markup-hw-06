@@ -652,7 +652,7 @@ li {
   padding: 8px 16px;
   outline: none;
   color: rgba(46, 47, 66, 0.4);
-  /* line-height: 1.17; */
+  line-height: 1.17;
   font-size: 12px;
 
   font-weight: 400;
