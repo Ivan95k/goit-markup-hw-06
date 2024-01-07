@@ -677,11 +677,6 @@ li {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.checkbox:checked + .form-agreement > .form-agreement-checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
 
 .form-agreement-checkbox {
   display: inline-flex;
@@ -703,7 +698,13 @@ li {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
-/* .checkbox:checked + .form-agreement-checkbox {
+input[type='checkbox']:checked ~ .form-agreement > .form-agreement-checkbox {
   background-color: #404bbf;
-  border-color: transparent;
+  border: none;
+  fill: #f4f4fd;
+}
+/* .checkbox:checked + .form-agreement > .form-agreement-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 } */
