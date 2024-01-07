@@ -698,11 +698,11 @@ li {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
 }
-/* input[type='checkbox']:checked ~ .form-agreement > .form-agreement-checkbox {
+input[type='checkbox']:checked ~ .form-agreement > .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-} */
+}
 /* .checkbox:checked + .form-agreement > .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
