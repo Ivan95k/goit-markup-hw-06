@@ -1003,12 +1003,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.checkbox {
-}
-.visually-hidden {
-}
-.form-agreement {
-}
+
 .form-agreement-checkbox {
   display: inline-flex;
   align-items: center;
